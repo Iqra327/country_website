@@ -598,3 +598,7 @@ contact us Page ends here
   justify-content: center;
   align-items: center;
 }
+
+.home-nav-error{
+  color: white;
+}
