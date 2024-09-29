@@ -145,6 +145,7 @@ nav ul {
   }
 
   .menu-mobile {
+    z-index: 2;
     position: absolute;
     top: 10rem;
     left: 0;
@@ -446,6 +447,7 @@ country Card
   width: 100%;
   display: flex;
   align-items: center;
+  text-align: center;
   justify-content: space-between;
   margin-bottom: 3.2rem;
 
@@ -462,7 +464,9 @@ country Card
     text-transform: capitalize;
     color: rgba(255, 255, 255, 0.8);
     border: 0.05rem solid #fff;
+    border-radius: 5rem;
     background: linear-gradient(71deg, #080509, #1a171c, #080509);
+    padding: 10px 15px;
   }
 
   & .select-section {
@@ -565,6 +569,19 @@ contact us Page ends here
   .grid-three-cols,
   .grid-two-cols {
     grid-template-columns: 1fr;
+  }
+
+  .section-searchFilter{
+    flex-direction: column;
+    gap: 7px;
+  }
+
+  .select-section{
+    margin-top: 10px;
+  }
+
+  .asc-desc{
+   order: 1; 
   }
 
   .grid--cols {
